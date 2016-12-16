@@ -20,7 +20,6 @@
         <style>[ng-cloak]#splash{display:block!important}[ng-cloak]{display:none}#splash{display:none;position:absolute;top:45%;left:48%;width:50px;height:50px;z-index:0;animation:loader 2s infinite ease;border:4px solid #ff5722}#splash-spinner{vertical-align:top;display:inline-block;width:100%;background-color:#ff5722;animation:loader-inner 2s infinite ease-in}@keyframes loader{0%{transform:rotate(0deg)}25%,50%{transform:rotate(180deg)}100%,75%{transform:rotate(360deg)}}@keyframes loader-inner{0%,25%{height:0}50%,75%{height:100%}100%{height:0}}</style>
         {{-- CSS --}}
         <link rel="stylesheet" href="{{ asset('assets/css/styles.min.css?v23') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/vendor/all.css?v23') }}">
 
         {{-- Fonts --}}
         <link href='https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,900' rel='stylesheet' type='text/css'>
