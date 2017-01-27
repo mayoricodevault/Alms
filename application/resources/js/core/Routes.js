@@ -66,13 +66,7 @@ angular.module('app')
                 folderName: {value: null}
             }
         })
-        .state('inmate.requests', {
-            url: '/inmate/list',
-            templateUrl: 'assets/views/inmate/home.html',
-            params: {
-                page: { value: null }
-            }
-        })
+
         .state('dashboard.foldersRoot', {
             url: '/folders',
             templateUrl: 'assets/views/dashboard/files.html',
@@ -87,6 +81,13 @@ angular.module('app')
             abstract: true,
             templateUrl: 'assets/views/admin/admin.html',
             controller: 'AdminController',
+        })
+        .state('admin.requests', {
+            url: '/requests',
+            templateUrl: 'assets/views/inmate/home.html',
+            params: {
+                page: { value: null }
+            }
         })
         .state('admin.users', {
             url: '/users',
