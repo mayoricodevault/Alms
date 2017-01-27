@@ -84,7 +84,7 @@ angular.module('app')
         })
         .state('admin.requests', {
             url: '/requests',
-            templateUrl: 'assets/views/inmate/home.html',
+            templateUrl: 'assets/views/admin/requests.html',
             params: {
                 page: { value: null }
             }
