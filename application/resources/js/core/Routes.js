@@ -74,7 +74,6 @@ angular.module('app')
                 folderName: { value: null }
             }
         })
-
         //ADMIN
         .state('admin', {
             url: '/admin',
