@@ -63,7 +63,14 @@ angular.module('app')
             url: '/folders/:folderId?',
             templateUrl: 'assets/views/dashboard/files.html',
             params: {
-                folderName: { value: null }
+                folderName: {value: null}
+            }
+        })
+        .state('inmate.requests', {
+            url: '/inmate/list',
+            templateUrl: 'assets/views/inmate/home.html',
+            params: {
+                page: { value: null }
             }
         })
         .state('dashboard.foldersRoot', {
