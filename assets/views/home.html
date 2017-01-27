@@ -22,7 +22,7 @@
                             <span class="caret"></span>
                             <ul class="dropdown-menu">
                                 <li ng-if="users.current.isAdmin" ui-sref="admin.analytics"><a href=""><i class="icon icon-lock-filled"></i>{{:: 'adminArea' | translate }}</a></li>
-                                <li ui-sref="inmate.home"><a href=""><i class="icon icon-gauge"></i>{{:: 'dashboard' | translate }}</a></li>
+                                <li ui-sref="inmate.requests"><a href=""><i class="icon icon-gauge"></i>{{:: 'dashboard' | translate }}</a></li>
                                 <li ui-sref="dashboard.folders"><a href=""><i class="icon icon-gauge"></i>{{:: 'dashboard' | translate }}</a></li>
                                 <li ng-click="users.showAccountSettingsModal($event, 'username')"><a href=""><i class="icon icon-pencil"></i> {{:: 'editUsername' | translate }}</a></li>
                                 <li ng-click="users.showAccountSettingsModal($event, 'avatar')"><a href=""><i class="icon icon-emo-sunglasses"></i> {{:: 'changeAvatar' | translate }}</a></li>
